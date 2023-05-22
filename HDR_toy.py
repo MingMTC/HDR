@@ -68,7 +68,7 @@ def DSC(C, q, lamda, h, dim):
     dim: the size of confusion matrix. It is notable that we could compute importance weight for each instance. 
     ''' 
     I_matrix = np.matrix(np.identity(dim)) 
-    return (C.T * C + lamda * I_matrix).I * (C.T * q + lamda * h) 
+    return np.matmul((np.matmul(C.T, C) + lamda * I_matrix).I, (np.matmul(C.T, q) + lamda * h))
 
 def Finetune(user, ad, 
              user_h, ad_h, label_h, 
