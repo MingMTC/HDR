@@ -2,7 +2,7 @@
 
 ## Backgroud 
 
-This is a demo for HDR approach in KDD 2023 Accepted Paper: **Capturing Conversion Rate Fluctuation during Sales Promotions: A Novel Historical Data Reuse Approach**. [[paper]](https://arxiv.org/abs/2305.12837) 
+This is a demo for HDR approach in KDD 2023 ADS Track Paper: **Capturing Conversion Rate Fluctuation during Sales Promotions: A Novel Historical Data Reuse Approach**. [[paper]](https://arxiv.org/abs/2305.12837) 
 
 This demo code is built on a simplified version of our production model because we must omit the details of the original model for anonymity. We provide it to illustrate the details of TransBlock and Distribution Shift Correction (DSC).
 
