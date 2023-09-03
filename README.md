@@ -1,5 +1,3 @@
-# README
-
 ## Backgroud 
 
 This is a demo for HDR approach in KDD 2023 Accepted Paper: **Capturing Conversion Rate Fluctuation during Sales Promotions: A Novel Historical Data Reuse Approach**. [[paper]](https://arxiv.org/abs/2305.12837) 
